@@ -31,28 +31,28 @@
             this.components = new System.ComponentModel.Container();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.Cuboid = new System.Windows.Forms.TabPage();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.Sphere = new System.Windows.Forms.TabPage();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.Cone = new System.Windows.Forms.TabPage();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.imageList2 = new System.Windows.Forms.ImageList(this.components);
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.Cuboid.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -89,6 +89,24 @@
             this.Cuboid.TabIndex = 0;
             this.Cuboid.Text = "S";
             this.Cuboid.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(588, 111);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "label2";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(649, 209);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "label1";
             // 
             // button3
             // 
@@ -146,6 +164,24 @@
             this.Sphere.Text = "Sphere";
             this.Sphere.UseVisualStyleBackColor = true;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(603, 208);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "label4";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(604, 124);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "label3";
+            // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(496, 236);
@@ -188,6 +224,24 @@
             this.Cone.TabIndex = 2;
             this.Cone.Text = "Cone";
             this.Cone.UseVisualStyleBackColor = true;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(641, 241);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(35, 13);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "label6";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(638, 349);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(35, 13);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "label5";
             // 
             // button1
             // 
@@ -233,60 +287,6 @@
             this.imageList2.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
             this.imageList2.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(649, 209);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "label1";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(588, 111);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 13);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "label2";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(604, 124);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "label3";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(603, 208);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "label4";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(638, 349);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "label5";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(641, 241);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "label6";
             // 
             // Form1
             // 

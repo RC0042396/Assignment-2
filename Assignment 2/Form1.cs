@@ -40,7 +40,7 @@ namespace Assignment_2
             catch
             {
                 //show error message on screen if fail
-                MessageBox.Show("Error!")
+                MessageBox.Show("Error!");
             }
         }
 
@@ -61,7 +61,7 @@ namespace Assignment_2
             catch
             {
                 //show error message on screen if fail
-                MessageBox.Show("Error!")
+                MessageBox.Show("Error!");
             }
         }
     }
